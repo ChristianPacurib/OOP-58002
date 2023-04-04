@@ -1,0 +1,22 @@
+fahrenheit = float(input("Enter temperature in Fahrenheit: "))
+f = float(input("Enter temperature in Fahrenheit-Scale: "))
+celsius = (fahrenheit - 32) * 5/9
+print('%.2f Fahrenheit is: %0.2f Celsius' %(fahrenheit, celsius))
+k = 5 * (f-32)/9 + 273.15
+
+print("The temperature in Kelvin-Scale:",round(k,2))
+celsius = float(input('Enter temperature in celsius: '))
+
+fahrenheit = 1.8 * celsius + 32
+kelvin = 273.15 + celsius
+
+print('%0.3f Celsius = %0.3f Fahrenheit.' % (celsius, fahrenheit))
+print('%0.3f Celsius = %0.3f Kelvin.' % (celsius, kelvin))
+
+kelvin = float(input('Enter temperature in kelvin: '))
+
+fahrenheit = ((kelvin-273.15)*1.8)+32
+celsius = kelvin-273.15
+
+print('%0.3f kelvin = %0.3f fahrenheit.' % (kelvin, fahrenheit))
+print('%0.3f kelvin = %0.3f celsius.' % (kelvin, celsius))
